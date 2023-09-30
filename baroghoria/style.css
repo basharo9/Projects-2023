@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+}
+
+body {
+   background-color: #3e9659;
+}
+
+header {
+    position: sticky;
+    top: 5px;
+    width: 100%;
+    /* padding: 40px 30px; */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.header {
+   background-color: #3e9658a9;
+   border: 1px solid #fff;
+   border-radius: 9px;
+
+}
+
+.logo {
+   font-size: 2rem;
+   color: aqua;
+   pointer-events: none;
+   font-weight: 700
+}
+
+.navigation a {
+   text-decoration: none;
+   color: aliceblue;
+   font-size: 20px;
+   font-weight: 600;
+   text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+   letter-spacing: 1.5px;
+   /* margin: 0 10px; */
+   padding: 6px 15px;
+   border-radius: 20px;
+}
+
+.navigation a:hover {
+   background-color: aquamarine;
+   color: #000;
+}
+
+
+
+.parallax {
+   position: relative;
+   height: 78vh;
+   width: 100%;
+   overflow: hidden;
+   border-radius: 9px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+}
+
+#text {
+   position: absolute;
+   font-size:6rem ;
+   color: #f9f9f9;
+   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+   font-weight: 900;
+   letter-spacing: 1.5rem;
+}
+
+
+.parallax img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   pointer-events: none;
+}
+
