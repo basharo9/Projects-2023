@@ -8,6 +8,10 @@
 
 body {
    background-color: #3e9659;
+   background-image: url(./img/BAROGHORIAg.png),url(./img/tree2.png);
+   background-position: left bottom,right bottom;
+   background-repeat: no-repeat;
+    
 }
 
 header {
@@ -85,3 +89,47 @@ header {
    pointer-events: none;
 }
 
+.imag-group .col img {
+   border: 1px solid #ddd;
+   border-radius: 9px;
+   padding: 7px;
+   margin: 10px;
+   width: 400px;
+   object-fit: cover;
+   box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+}
+
+.imag-group div {
+    
+   overflow: hidden;
+
+}
+
+footer .fGroup {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+footer .fGroup a {
+   text-decoration: none;
+   color: #000;
+   margin: 10px;
+   display: flex;
+   /* align-items: center; */
+   /* justify-content: center; */
+   font-weight: 700;
+   padding: 10px 15px;
+   background-color: #3e9659;
+   border-radius: 10px;
+   border: 1px solid #fff;
+}
+
+ 
+
+
+.tree {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
